@@ -5,7 +5,7 @@ import streamlit as st
 
 # Function to get the subjects dashboard
 def dashbord(token):
-    url = "https://api.tesseractonline.com/studentmaster/subjects/10/5"
+    url = "https://api.tesseractonline.com/studentmaster/subjects/4/5"
     headers = {
         "Authorization": f"Bearer {token}",
         "Referer": "https://tesseractonline.com/"
